@@ -7,7 +7,7 @@ export const Intro = () => {
     return (
         <motion.div
             animate={{ y: 0 }}
-            className="space-y-5 md:ml-20"
+            className="space-y-5 max-w-7xl w-full mx-auto p-5 md:p-0"
             id="intro"
             initial={{ y: 40 }}
             transition={{ duration: 0.5 }}

@@ -10,7 +10,7 @@ interface IBlogProps {
 export const Blog: FC<IBlogProps> = ({ Posts }) => {
     return (
         <div
-            className="flex flex-col items-center justify-center md:justify-start md:items-start md:ml-20"
+            className="flex flex-col items-center justify-center md:justify-start md:items-start max-w-7xl w-full mx-auto p-5 md:p-0"
             id="blog"
         >
             <Title num={3} title="Blog" />

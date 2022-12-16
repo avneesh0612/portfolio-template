@@ -6,7 +6,7 @@ import React from 'react';
 export const About = () => {
     return (
         <div
-            className="flex flex-col items-center justify-center md:ml-20"
+            className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0"
             id="about"
         >
             <Title num={1} title="About me" />

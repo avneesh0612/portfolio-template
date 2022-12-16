@@ -12,11 +12,11 @@ export const Project: FC<IProjectProps> = ({ project }) => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
                 alt={project.name}
-                className="relative md:w-[450px] w-[350px] ml-4 h-[250px] rounded-lg"
+                className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg"
                 loading="lazy"
                 src={project.image}
             />
-            <div className="ml-2 md:ml-20">
+            <div className="ml-2 mt-5 md:mt-0 md:ml-20">
                 <h3 className="text-3xl font-semibold text-neon">
                     {project.name}
                 </h3>
