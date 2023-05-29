@@ -47,3 +47,7 @@ body::-webkit-scrollbar-track {
   text-decoration: underline;
   text-decoration-color: #52dee5;
 }
+
+.children-zindex-1 div:not([class^="z-"]) {
+  z-index: 1;
+}
