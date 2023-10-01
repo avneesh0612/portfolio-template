@@ -15,6 +15,54 @@
 
 ### ✨ [Demo](https://www.avneesh.tech/)
 
+## Table of Contents
+
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Author](#Author)
+- [Contributing](#-Contributing)
+- [Support](#Support)
+- [License](#-License)
+
+## Description
+This is my portfolio website, which is also a template. Feel free to fork, star, and use it.
+
+It is built with NextJS and Tailwind, in Typescript.
+
+## Installation
+
+### Prerequisites
+
+Make sure to have `npm` installed.
+
+### Setup
+
+#### Fork the Repo
+
+#### Clone the Repo
+
+Clone the repository to your local machine:
+
+```shell
+git clone <repository-url>
+```
+
+#### Install the Dependencies
+
+Install the dependencies (NextJS, Tailwind CSS, etc.):
+
+```shell
+npm install
+```
+
+## Usage
+### Development
+```shell
+npm run dev
+```
+
+
 ## Author
 
 👤 **Avneesh Agarwal**
@@ -28,7 +76,7 @@
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/avneesh0612/portfolio/issues). You can also take a look at the [contributing guide](https://github.com/avneesh0612/portfolio/blob/main/CONTRIBUTING.md).
 
-## Show your support
+## Support
 
 Give a ⭐️ if this project helped you!
 
