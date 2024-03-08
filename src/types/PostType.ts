@@ -6,7 +6,7 @@ interface PostType {
   totalReactions: number;
   replyCount: number;
   responseCount: number;
-  coverImage: string;
+  coverImage: { url: string };
   slug: string;
   popularity: number;
 }

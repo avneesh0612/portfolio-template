@@ -17,7 +17,8 @@ export const Blog: FC<IBlogProps> = ({ Posts }) => {
 
       <div className="flex flex-wrap justify-between mt-10">
         {Posts.slice(0, 3).map(post => {
-          return <Post key={post._id} post={post} />;
+          // @ts-ignore
+          return <Post key={post.data.post.id} post={post.data?.post} />;
         })}
       </div>
     </div>

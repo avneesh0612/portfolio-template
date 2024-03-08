@@ -6,9 +6,9 @@ const data = {
     'Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator',
   profession: 'FullStack web3 developer',
   intro:
-    'Focused on building products that people love to use. I love to learn new things and share my knowledge with others. I teach others by creating content! I am also a devrel at thirdweb.',
+    'Focused on building products that people love to use. I love to learn new things and share my knowledge with others. I teach others by creating content!',
   about:
-    'I’m a 15 y/o full-stack web3 developer building cool products and teaching others by creating content that revolves around many areas in web3.',
+    'I’m a 16 y/o full-stack web3 developer building cool products and teaching others by creating content that revolves around many areas especially in web3.',
   website: 'https://www.avneesh.tech',
   projects: [
     {
@@ -41,7 +41,7 @@ const data = {
       tech: ['Next.js', 'solana', 'Typescript'],
       links: {
         GitHub: 'https://github.com/candypay',
-        Live: 'https://www.producthunt.com/posts/faucetli',
+        Live: 'https://candypay.fun',
       },
       role: 'Fullstack web3 developer',
     },
@@ -58,19 +58,14 @@ const data = {
       link: 'https://twitter.com/avneesh0612',
     },
     {
-      name: 'Hashnode',
-      icon: 'hashnode.svg',
-      link: 'https://blog.avneesh.tech',
-    },
-    {
-      name: 'Instagram',
-      icon: 'instagram.svg',
-      link: 'https://instagram.com/avneesh.codes',
+      name: 'Farcaster',
+      icon: 'farcaster.svg',
+      link: 'https://warpcast.com/aneesh0612',
     },
     {
       name: 'Mail me',
       icon: 'mail.svg',
-      link: 'mailto:avneeshagarwal0612@gmail.com',
+      link: 'mailto:hi@avneesh.tech',
     },
     {
       name: 'LinkedIn',
