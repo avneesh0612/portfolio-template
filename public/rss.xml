@@ -3,14 +3,17 @@
     <channel>
         <title>Avneesh Agarwal</title>
         <link>https://www.avneesh.tech/</link>
-        <description>I am a full-stack web developer who loves to design and develop beautiful websites. I have been coding for over a year and enjoying every part of my journey. I love documenting my journey by writing blog posts and teaching others through my writing.</description>
+        <description>I am a full-stack web developer who loves to design and develop beautiful
+            websites. I have been coding for over a year and enjoying every part of my journey. I
+            love documenting my journey by writing blog posts and teaching others through my
+            writing.</description>
         <lastBuildDate>Fri, 16 Dec 2022 18:00:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <image>
             <title>Avneesh Agarwal</title>
-            <url>https://www.avneesh.tech/og-image.png</url>
+            <url>https://www.avneesh.tech/About.png</url>
             <link>https://www.avneesh.tech/</link>
         </image>
         <copyright>All rights reserved, Avneesh Agarwal</copyright>

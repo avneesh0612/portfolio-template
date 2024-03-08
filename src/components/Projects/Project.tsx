@@ -9,7 +9,7 @@ interface IProjectProps {
 
 export const Project: FC<IProjectProps> = ({ project }) => {
   return (
-    <article className="flex flex-col items-center mt-10 md:flex-row">
+    <article className="flex flex-col items-center mt-10 md:flex-row z-10">
       <Image
         alt={project.name}
         className="relative md:w-[450px] w-full ml-4 h-[250px] rounded-lg object-contain"

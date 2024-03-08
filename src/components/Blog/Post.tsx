@@ -20,16 +20,14 @@ export const Post: FC<Props> = ({ post }) => {
           alt={post.title}
           className="rounded-t-lg object-cover"
           height={786}
-          src={post.coverImage}
+          src={post.coverImage.url}
           width={1500}
         />
       )}
 
       <div className="flex flex-col p-4 pb-4">
         <h2 className="text-lg font-medium text-neon">{post.title}</h2>
-        <p className="mt-4 text-base break-words text-text">
-          {post.brief.substring(0, 100)}...
-        </p>
+        <p className="mt-4 text-base break-words text-text">{post.brief}</p>
       </div>
     </a>
   );

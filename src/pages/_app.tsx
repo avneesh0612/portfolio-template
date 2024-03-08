@@ -22,7 +22,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           description: data.about,
           images: [
             {
-              url: '/og-image.png',
+              url: '/About.png',
               width: 800,
               height: 420,
               alt: data.name,
